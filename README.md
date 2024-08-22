@@ -48,11 +48,23 @@ composer install
 php artisan migrate
 ```
 
-7. Ejecuta el proyecto
+7. Generar la clave secreta de JWT para autenticación
+
+```sh
+php artisan jwt:secret
+```
+
+8. Ejecuta el proyecto
 
 ```sh
 php artisan serve
 ```
 
+## Credenciales de acceso
+
+-   **Email:** `test@mail.com`
+-   **Contraseña:** `123456`
+
 ## Front end del proyecto
+
 https://github.com/josemcj/my-brand-app
