@@ -53,3 +53,6 @@ php artisan migrate
 ```sh
 php artisan serve
 ```
+
+## Front end del proyecto
+https://github.com/josemcj/my-brand-app
