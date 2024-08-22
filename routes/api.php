@@ -19,6 +19,5 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('/user', [AuthController::class, 'me']);
     Route::post('/logout', [AuthController::class, 'logout']);
 
-
     Route::apiResource('/contact', ContactController::class)->only(['index', 'show', 'update', 'destroy']);
 });
